@@ -8,25 +8,68 @@
     body{
         display: ruby-base;
         background-color: rgb(186, 235, 245);
-        background-image: url('meme.jpg');
-        background-size:contain;
-        background-repeat: no-repeat;
-        background-position: 200px 300px;
+        background-image: url('bitmap.jpg');
+        background-position: center;
+        height:auto;
+        width:1000px;
     }
     a{
         font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         color: black;
         font-weight: bold;
-        padding: 20px;    
+        padding: 20px; 
+    }
+    h1{
+        font-family:Arial, Helvetica, sans-serif;
+        color: rgb(7, 7, 7);
+        font-weight: bold;
+        font-size: 60px;
+        position: absolute;
+        left: 430px;
+    }
+    h2{
+        font-family:Georgia;
+        color: rgb(7, 7, 7);
+        font-size: 20px;
+        position: absolute;
+        left: 630px;
+        margin-top: 100px;
+    }
+    .click_button1 {
+        position: absolute;
+        left: 600px;
+        top: 300px;
+        box-shadow: 13px 5px 5px rgba(4, 4, 4, 0.1);
+        background-color: rgb(248, 250, 249);
+        border-radius: 6px;
+        padding: 20px;
+    }
+    .click_button1:hover{
+        transform: scale(1.1);
     }
 
+    .click_button2 {
+        position: absolute;
+        left: 750px;
+        top: 300px;
+        box-shadow: 13px 5px 5px rgba(4, 4, 4, 0.1);
+        background-color: rgb(248, 250, 249);
+        border-radius: 6px;
+        padding :20px;
+    }
+    .click_button2:hover{
+        transform: scale(1.1);
+    }
 </style>
 </head>
 <body>
-    
-    <a href="index.html">Login</a>
-    <a href="signup.html">Signup</a>
-
-
+    <h1>   Welcome to our page </h1>
+    <h2>   See the better in you</h2>
+    <div  class = "click_button1">
+        <a href="login.html">Login</a>
+    </div>
+    <div  class = "click_button2">
+        <a href="signup.html">Signup</a>
+    </div>
 </body>
 </html>
