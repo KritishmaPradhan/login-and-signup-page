@@ -37,7 +37,7 @@
     }
     .click_button1 {
         position: absolute;
-        left: 600px;
+        left: 580px;
         top: 300px;
         box-shadow: 13px 5px 5px rgba(4, 4, 4, 0.1);
         background-color: rgb(248, 250, 249);
@@ -60,16 +60,27 @@
     .click_button2:hover{
         transform: scale(1.1);
     }
+    button{
+        border: none;
+        background-color:transparent;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        font-weight: bold;
+    }
 </style>
 </head>
 <body>
     <h1>   Welcome to our page </h1>
     <h2>   See the better in you</h2>
     <div  class = "click_button1">
-        <a href="login.html">Login</a>
+        <a href="login.html"> 
+            <button type="button">Login</button>
+        </a>
     </div>
     <div  class = "click_button2">
-        <a href="signup.html">Signup</a>
+        <a href="signup.html">
+            <button type="button">Signup</button> 
+            </a>
     </div>
 </body>
 </html>
